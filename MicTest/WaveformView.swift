@@ -13,7 +13,8 @@ struct WaveformView: View {
                 // 波形データの各点を描画
                 let width = geometry.size.width
                 let height = geometry.size.height
-                let maxAmplitude: Float = waveformData.max() ?? 1.0 // 最大振幅で正規化
+                // let maxAmplitude: Float = waveformData.max() ?? 1.0 // 最大振幅で正規化
+                let maxAmplitude:Float = 1.0 // 正規化を止める
 
                 // 最初の点に移動
                 path.move(to: CGPoint(x: 0, y: height / 2))
