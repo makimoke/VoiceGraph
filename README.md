@@ -1,8 +1,8 @@
-# VoiceGraph with Google Gemini
+# VoiceGraph with Gemini
 
 iOS Swift環境でマイク入力の音声の波形を表示するプログラムです。（要iOS実機）
 
-コードはUIも含めてほぼほぼGeminiさんに作ってもらいました。（noteの"#AIとやってみた"に投稿する用）
+コードはUIも含めてほぼほぼGoogle Geminiさんに作ってもらいました。（noteの"#AIとやってみた"に投稿する用）
 
 プロンプトは”iosとswiftとSwiftUIでマイクからリアルタイムに音声を受け取って波形を表示するプログラムを作って”。
 
